@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selection_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Appelation"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/create_rectangle"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:hint="E.g, 'Courtesy', 'Love from', 'Your Son/Daughter' "
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:id="@+id/appelation"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Signature"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/create_rectangle"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:hint="I.e Your Name or nickname"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:id="@+id/name"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="PROCEED TO GRAPHICS"
+            android:background="#0ff"
+            android:onClick="openDesign"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0">-->
+        <!---->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

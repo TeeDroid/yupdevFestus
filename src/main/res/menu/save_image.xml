@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="never"
+        android:title="Save Image"
+        android:id="@+id/itemSave"/>
+
+    <item
+        app:showAsAction="never"
+        android:title="Exit"
+        android:id="@+id/itemExit"/>
+
+</menu>
